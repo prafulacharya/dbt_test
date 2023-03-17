@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: snowflake_json_data1
+    description: 'A sample json data'
+    database: PRAFUL_TEST_DB
+    schema: PRAFUL_TEST_SCHEMA
+    tables:
+      - name: CHANNEL_DATA
+        description: 'json sting with key and value in pairs'
+      - name: MAPPING
+        description: 'Mapping table for all chnnels'
+      - name: TEST_INSERT
